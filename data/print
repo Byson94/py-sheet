@@ -1,0 +1,13 @@
+# Print
+
+**Description**:
+
+Print is the function in python which display's output to the console or an output device.
+
+**Example**:
+
+```python
+print("Hello, world!") # prints the text hello world
+
+# the print command can print any variable to the console as well!
+```
