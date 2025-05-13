@@ -23,7 +23,7 @@ parser.add_argument("-l", "--log", help="logs information of a specific syntax")
 args = parser.parse_args()
 
 # this should hold the path to the directory that contains the data folder
-SHARE_PATH = "/usr/share/python-cheatsheet/data"
+SHARE_PATH = "/usr/share/py-sheet/data"
 LOCAL_PATH = os.path.join(os.path.dirname(os.path.realpath(__file__)), "data")
 data_folder = SHARE_PATH if os.path.exists(SHARE_PATH) else LOCAL_PATH
 
