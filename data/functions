@@ -1,0 +1,17 @@
+# Functions
+
+**Description**:
+
+Functions are blocks of code that can be called at any point. `def` is the keyword in python which we use to create functions. After a function is defined using the `def` keyword, it can be called by using it's name followed by two parentheses. You can add parameters inside the parenteses according to how the function is defined.
+
+**Example**:
+
+```python
+def add(x, y): # Prints the sum of two numbers.
+    print(x + y)
+
+add(1, 2) # Calls the function.
+# 1 and 2 are the parameters passed to the function because it required 2 paramenters to find the sum.
+# If a function expects a parameter and you dont pass it to the function, you will get a type error.
+# However, if the function doesnt uses the paramenter or if the paramenter has a default value, then you wont get a type error.
+```

@@ -1,0 +1,33 @@
+# loops
+
+**Description**:
+
+Loops are used to constantly run a block of code over and over again until the requirements are met. There are two main types of loops: `while` loops and `for` loops.
+
+## While loops
+
+**Description**:
+
+A `while` loop continues to execute as long as a given condition is True. It’s useful when the number of iterations isn’t known in advance.
+
+**Example**:
+
+```python
+count = 0
+while count < 5:
+    print(count)
+    count += 1
+```
+
+## For loops
+
+**Description**:
+
+A `for` loop is used to iterate over a sequence (like a list, tuple, string, or range). It’s great when you know exactly how many times to loop.
+
+**Example**:
+
+```python
+for i in range(5):
+    print(i)
+```

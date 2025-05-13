@@ -37,10 +37,10 @@ pysheet --version
 
 ### `--manual <cheatsheet-name>` or `-m`
 
-Displays a specific cheatsheet by the syntax.
+Displays a specific cheatsheet by the name.
 
 **Example:**
 
 ```bash
-pysheet --log loops
+pysheet --manual loops
 ```

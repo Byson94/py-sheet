@@ -31,9 +31,9 @@ data_folder = SHARE_PATH if os.path.exists(SHARE_PATH) else LOCAL_PATH
 if args.version:
     print(version)
 
-if args.log:
+if args.manual:
     # the args.log outputs what we entered after it
-    file_path = os.path.join(data_folder, args.log)
+    file_path = os.path.join(data_folder, args.manual)
     if os.path.exists(file_path):
         with open(file_path, 'r') as file:
             console.print(Markdown(file.read()))
