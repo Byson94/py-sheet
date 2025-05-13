@@ -18,7 +18,7 @@ parser = argparse.ArgumentParser()
 
 # args
 parser.add_argument("-v", "--version", help="Logs the current version", action="store_true")
-parser.add_argument("-l", "--log", help="logs information of a specific syntax")
+parser.add_argument("-m", "--manual", help="Shows the manual of a specific syntax")
 
 args = parser.parse_args()
 

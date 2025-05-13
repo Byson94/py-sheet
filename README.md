@@ -35,9 +35,9 @@ Displays the current version of the tool.
 pysheet --version
 ```
 
-### `--log <cheatsheet-name>` or `-l`
+### `--manual <cheatsheet-name>` or `-m`
 
-Displays a specific cheatsheet by name (without the extension).
+Displays a specific cheatsheet by the syntax.
 
 **Example:**
 
