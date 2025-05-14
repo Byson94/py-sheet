@@ -50,9 +50,9 @@ def listAllData():
             filenames.append(filename)
 
     panels = [Panel(name, expand=True) for name in filenames]
-    console.print("All cheatsheet available in the database:", style="bold")
+    console.print("All cheatsheets available in the database:", style="bold")
     console.print(Columns(panels))
-    console.print("Run this command with the argument '--log <cheatsheet-name>' to view the cheatsheet.")
+    console.print("Run this command with the argument '--manual <cheatsheet-name>' to view the cheatsheet.")
 
 if len(sys.argv) == 1:
     listAllData()
