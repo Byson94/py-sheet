@@ -44,3 +44,10 @@ Displays a specific cheatsheet by the name.
 ```bash
 pysheet --manual loops
 ```
+
+## Dependencies
+
+- rich
+
+> [!IMPORTANT]
+> Make sure that you have rich installed on your system for pysheet to work.
