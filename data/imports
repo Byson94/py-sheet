@@ -2,7 +2,7 @@
 
 **Description**:
 
-Imports are the method which we use to import modules and python librarires. We use `import` to import sertain libraries and modules. We can also import only sertain functions from the module and for that, we use `from` keyword followed by the module name and then followed by the `import` keyword and the function that you want to import.
+Imports are the method which we use to import modules and python libraries. We use `import` to import certain libraries and modules. We can also import only sertain functions from the module and for that, we use `from` keyword followed by the module name and then followed by the `import` keyword and the function that you want to import.
 
 **Example**:
 
