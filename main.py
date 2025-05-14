@@ -8,7 +8,7 @@ from rich.console import Console
 from rich.markdown import Markdown
 from rich.columns import Columns
 from rich.panel import Panel
-version = "1.1"
+version = "1.2"
 
 # rich
 console = Console()
