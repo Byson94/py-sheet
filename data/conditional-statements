@@ -1,0 +1,21 @@
+# Conditional statements
+
+**Description**:
+
+Contitional statements are blocks of code that only execute if a certain condition is met. In python we have the `if/else` statement. We can check if a certain condition is matched by doing `if <condition>` and if we want to do something else if the condition is not matched, we can use the `else` keyword to run a certain code if the condition is not met. We also have `elif`: It can be used if the main `if` block didnt trigger and we want to make another conditional check. The `else` doesnt take any condition because it runs if all the `if` and `elif` statement conditions are not met.
+
+**Example**:
+
+```python
+condition1 = "example"
+condition2 = "example"
+
+if condition1 == "string": # checks if condition1 is true
+    print("condition 1 is true!")
+elif condition2 "string": # if condition1 is not met, condition2 runs
+    print("condition 2  is true!")
+else: # if both are not met, this is ran
+    print("no conditions are true!")
+
+# Here the condition1 and condition2 wont be true because their value is not `string` but instead `example`
+```
